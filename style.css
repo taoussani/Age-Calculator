@@ -1,0 +1,117 @@
+.box{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background: url(./wp2552453.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.box2{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+    background-size: cover;
+    background-color: rgb(252, 252, 252 , 0.5);
+    height: 450px;
+    width: 450px;
+
+
+}
+h1{
+    font-weight: bold;
+    color: white;
+}
+.inpt{
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    height: 30px;
+    opacity: 0.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.btn{
+    width: 222px;
+    margin-bottom: 25px;
+    opacity: 0.5;
+    height: 40px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 2, 2);
+    font-weight: bold;
+
+
+}
+.result{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(39, 39, 38);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+
+   
+    /* background: blue; */
+    border: 3px solid #f1f1f1;
+    animation: 1s linear infinite alternate boxMagic,
+               4s linear infinite spinning;
+}
+
+
+@keyframes boxMagic {
+    from {
+        box-shadow: 
+        0 0 0 #feac5e,
+        0 0 0 #c779d0,
+        0 0 0 #4bc0c8,
+        0 0 0 #42db75;
+    }
+    to {
+        box-shadow: 
+        0 -10px 0 #feac5e,
+        -10px 0 0 #c779d0,
+        0 10px 0 #4bc0c8,
+        10px 0 0 #42db75;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .result {
+        width: 200px;
+        height: 200px;
+        padding-top: 210px;
+    }
+    @keyframes boxMagic {
+        from {
+            box-shadow: 
+            0 0 0 #feac5e,
+            0 0 0 #c779d0,
+            0 0 0 #4bc0c8,
+            0 0 0 #42db75;
+        }
+        to {
+            box-shadow: 
+            0 -6px 0 #feac5e,
+            -6px 0 0 #c779d0,
+            0 6px 0 #4bc0c8,
+            6px 0 0 #42db75;
+        }
+    }
+}
