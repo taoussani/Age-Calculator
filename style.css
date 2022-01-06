@@ -90,28 +90,3 @@ h1{
         10px 0 0 #42db75;
     }
 }
-
-
-@media screen and (max-width: 700px) {
-    .result {
-        width: 200px;
-        height: 200px;
-        padding-top: 210px;
-    }
-    @keyframes boxMagic {
-        from {
-            box-shadow: 
-            0 0 0 #feac5e,
-            0 0 0 #c779d0,
-            0 0 0 #4bc0c8,
-            0 0 0 #42db75;
-        }
-        to {
-            box-shadow: 
-            0 -6px 0 #feac5e,
-            -6px 0 0 #c779d0,
-            0 6px 0 #4bc0c8,
-            6px 0 0 #42db75;
-        }
-    }
-}
