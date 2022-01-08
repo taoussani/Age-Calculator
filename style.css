@@ -15,8 +15,7 @@
     align-items: center;
     background-size: cover;
     background-color: rgb(252, 252, 252 , 0.5);
-    height: 450px;
-    width: 450px;
+    padding: 20px;
 
 
 }
@@ -90,11 +89,7 @@ h1{
         10px 0 0 #42db75;
     }
 }
-@media only screen and (max-width: 600px) {
-    .box2 {
-        height: 387px;
-        width: 291px;    }
-  }
+
 .copyr{
     font-size: 12px;
 }
