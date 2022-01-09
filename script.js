@@ -38,7 +38,7 @@ function ageCalculator() {
     }
 
         let output = '';
-        output = `<div class="result">${y} year </br> ${m} mounth </br> ${d} days </div>`;
+        output = `<div class="result">${y} year </br> ${m} month </br> ${d} days </div>`;
         document.getElementById('div1').innerHTML = output;
 
 }
